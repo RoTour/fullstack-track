@@ -1,4 +1,4 @@
-**TP 1 - Parcours Fullstack**
+#TP 1 - Parcours Fullstack
 
 *Durée : 1 à 2 semaines*
 
@@ -18,7 +18,7 @@ __Indications__:
 - **Ne pas se lancer tête baisée dans le tp** : prenez le temps de découvrir les technos, comprendre à quoi ça sert, comment ça marche etc
 - Bien réfléchir à comment sera découpé le site avant de commencer, c'est pas une fois que tu seras au milieu du code qu'il faudra commencer à se poser la question de comment on s'y prend
 - Faire des **commits** :)
-- Envoyez-moi le lien git quand vous l'avez créée
+- Envoyez-moi le lien git quand vous l'avez créé
 
 
 (Pas de pression hein, c'est du bonus, le but est de découvrir pas de se dégouter)
