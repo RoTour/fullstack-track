@@ -1,4 +1,4 @@
-# TP 2 - Parcours Fullstack**
+# TP 2 - Parcours Fullstack
 
 *Durée : 1 à 2 semaines*
 
