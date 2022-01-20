@@ -16,9 +16,9 @@ __Notions visées__ :
 __Énoncé__ :
 
 - Créer une API proposant les routes suivantes :
-    - GET /user => renvoi tous les utilisateurs
+    - GET /user => renvoie tous les utilisateurs
     - POST /user => permet de rajouter un nouvel utilisateur dans le fichier fourni
-    - GET /user/:id => renvoi l'utilisateur avec l'id correspondant (ex /user/4)
+    - GET /user/:id => renvoie l'utilisateur avec l'id correspondant (ex /user/4)
     - DELETE /user/:id => permet de supprimer l'utilisateur avec l'id correspondant
 - Une fois que toutes ces routes sont fonctionnelles, mettre en place un system de filtre sur la route GET /user, au
   moyen de query parameters (ex: GET /user?firstname=robin). Les filtres à mettre en place sont:
@@ -26,7 +26,7 @@ __Énoncé__ :
     - lastname
     - company
 - La route DELETE /user/:id ne devrait pas être accessible à n'importe qui. Pour sécuriser cette route, faites en sorte
-  qu'elle renvoi une erreur 403 (forbidden) si la requête ne contient pas dans ses headers { admin: true }
+  qu'elle renvoie une erreur 401 (Unauthorized) si la requête ne contient pas dans ses headers { admin: true }
 - Pensez à l'optimisation ! Lire le fichier à chaque requête n'est pas nécessaire ;)
 
 __Tips__
