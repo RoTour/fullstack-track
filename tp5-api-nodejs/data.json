@@ -15,7 +15,7 @@
       "company": "ynov"
     },
     {
-      "id": 2,
+      "id": 3,
       "firstname": "louis",
       "lastname": "sasse",
       "email": "dmitrii.kopenkin@ynov.com",
@@ -55,6 +55,13 @@
       "lastname": "stroustrup",
       "email": "cpp.ishighlevel@gmail.com",
       "company": "I Code Better"
+    },
+    {
+      "id": 9,
+      "firstname": "anthony",
+      "lastname": "cavagne",
+      "email": "anthony.cavagne@ynov.com",
+      "company": "Segfault"
     }
   ]
 }
