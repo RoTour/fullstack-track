@@ -24,9 +24,6 @@ __Énoncé__ :
 - Vous pouvez soit utiliser un framework css, soit partir en css pur
 - À vous de déterminer les différents breakpoints à utiliser
 
-__Restrictions__ :
-- Obligation d'utiliser un framework css (Boostrap est recommandé)
-
 (Pas de pression hein, c'est du bonus, le but est de découvrir pas de se dégouter)
 
 Have fun
