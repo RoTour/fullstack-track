@@ -12,6 +12,7 @@ __Notions visées__ :
 - Découvrir TS pour ne plus jamais revenir au JS
 - Utiliser des requêtes api en TS
 - Savoir configurer un linter
+- Creer ses propres types en Typescript
 
 __Indications__ :
 
@@ -27,11 +28,18 @@ __Indications__ :
 
 __Énoncé__ :
 
-- Faire un front permettant d'afficher les familiers (pets) de dofus (en utilisant l'api DOFAPI : https://fr.dofus.dofapi.fr/ )
+- **Le but de ce tp est de respecter au maximum les bonnes pratiques de code.**
+- Creer un serveur express utilisant une API. Vous pouvez utiliser l API de dofus https://fr.dofus.dofapi.fr/ ou celle de Pokemon https://pokeapi.co/)
 - Arborescence :
     - Les fichiers de config (tsconfig, eslintrc etc) doivent se trouver à la racine du projet (à côté du package.json)
-    - Les fichiers de l'application devront être dans un dossier nommé exactement "src"
+    - Les fichiers de l'application devront être dans un dossier nommé exactement "src" (nom du fichier d entree : `src/index.ts`)
     - Ne pas oublier le .gitignore (les fichiers de config ne doivent **pas** être ignorés)
+- Étapes (à titre indicatif, la liste n'est pas exhaustive) :
+    - npm init
+    - Setup typescript
+    - Setup ESLint (doit être activé dans les paramètres de webstorm - selectionner configuration automatique avec le
+      fichier .eslintrc)
+    - Interface
 - Config :
     - ESLint : lors de l'initialisation, sélectionner l'option
         - "To check syntax, find problems, and enforce code style"
@@ -43,16 +51,11 @@ __Énoncé__ :
         - Airbnb
         - JSON
         - installer la dépendance
-- Étapes (à titre indicatif, la liste n'est pas exhaustive) :
-    - Npm init
-    - Setup typescript
-    - Setup ESLint (doit être activé dans les paramètres de webstorm - selectionner configuration automatique avec le
-      fichier .eslintrc)
-    - Interface
 
 __Tips__
 
 - Utiliser le package npm **axios** pour les requêtes http
+- Pour lancer des fichiers typescript, on utilise ts-node
 
 __Indications habituelles__ :
 
